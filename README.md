@@ -1,7 +1,7 @@
 # TinyMegaI2C Library
 
 ## Description
-**TinyMegaI2C** is a set of minimal I2C routines for the new 0-series and 1-series ATtiny and ATmega microcontrollers. They allow any of these processors to act as an I2C Master and connect to I2C peripherals.
+**TinyMegaI2C** is a set of minimal I2C routines for the new 0-series and 1-series ATtiny and ATmega microcontrollers. They allow any of these processors to act as an I2C Master and connect to I2C peripherals. For more information see http://www.technoblogy.com/show?2QYB.
 
 The main difference between these routines and the standard Arduino Tiny Wire library is that these don't use buffers, so have minimal memory requirements, and don't impose a limit on transmissions.
 
