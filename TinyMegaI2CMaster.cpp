@@ -1,6 +1,6 @@
-/* Tiny I2C
+/* TinyMegaI2C
 
-   David Johnson-Davies - www.technoblogy.com - 14th April 2018
+   David Johnson-Davies - www.technoblogy.com - 17th September 2019
    
    CC BY 4.0
    Licensed under a Creative Commons Attribution 4.0 International license: 

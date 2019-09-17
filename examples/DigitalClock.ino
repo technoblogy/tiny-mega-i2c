@@ -1,7 +1,6 @@
-/* Digital Clock using TinyMegaI2C Library
+/* I2C Digital Clock using TinyMegaI2C
 
-   David Johnson-Davies - www.technoblogy.com - 6th June 2018
-   ATtiny402 @ 20 MHz (internal oscillator; BOD disabled)
+   David Johnson-Davies - www.technoblogy.com - 17th September 2019
    
    CC BY 4.0
    Licensed under a Creative Commons Attribution 4.0 International license: 
@@ -58,7 +57,7 @@ void WriteTime (uint8_t hrs, uint8_t mins) {
 void setup() {
   TinyMegaI2C.init();
   InitDisplay();
-  SetClock(0x12, 0x34);      // Set the time to 12:34 - change to current time
+  SetClock(0x10, 0x23);      // Set the time to 10:23
 }
 
 void loop () {
