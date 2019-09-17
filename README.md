@@ -93,7 +93,7 @@ void loop () {
   }
 }
 ````
-It uses the fact that TinyMegaI2C.start() returns false if no device was found with the corresponding address. For example, with the I2C clock example it prints out:
+It uses the fact that **TinyMegaI2C.start()** returns false if no device was found with the corresponding address. For example, with the I2C clock example it prints out:
 
 ````
 Scanning...
