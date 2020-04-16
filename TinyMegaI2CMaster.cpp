@@ -18,7 +18,7 @@ TinyMegaI2CMaster::TinyMegaI2CMaster()
 void TinyMegaI2CMaster::init () {
   pinMode(PIN_WIRE_SDA, INPUT_PULLUP);
   pinMode(PIN_WIRE_SCL, INPUT_PULLUP);
-  uint32_t baud = ((F_CPU_CORRECTED/FREQUENCY) - (((F_CPU_CORRECTED*T_RISE)/1000)/1000)/1000 - 10)/2;
+  uint32_t baud = ((F_CPU/FREQUENCY) - (((F_CPU*T_RISE)/1000)/1000)/1000 - 10)/2;
   TWI0.MBAUD = (uint8_t)baud;
   TWI0.MCTRLA = TWI_ENABLE_bm;                                        // Enable as master, no interrupts
   TWI0.MSTATUS = TWI_BUSSTATE_IDLE_gc;
