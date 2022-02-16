@@ -141,3 +141,7 @@ int mins = TinyMegaI2C.read();
 int hrs = TinyMegaI2C.read();
 TinyMegaI2C.stop();
 ````
+
+### Version 1.1.0
+
+Version 1.1.0 incorporates changes suggested by @buckket in issue #3.
