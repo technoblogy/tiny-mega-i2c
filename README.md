@@ -144,4 +144,4 @@ TinyMegaI2C.stop();
 
 ### Version 1.1.0
 
-Version 1.1.0 incorporates changes suggested by @buckket in issue #3.
+Version 1.1.0 incorporates changes suggested by @buckket in https://github.com/technoblogy/tiny-mega-i2c/issues/3.
