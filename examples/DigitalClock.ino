@@ -1,4 +1,4 @@
-/* I2C Digital Clock using TinyMegaI2C
+/* I2C Digital Clock using TinyMegaI2C library
 
    David Johnson-Davies - www.technoblogy.com - 17th September 2019
    
@@ -57,7 +57,7 @@ void WriteTime (uint8_t hrs, uint8_t mins) {
 void setup() {
   TinyMegaI2C.init();
   InitDisplay();
-  SetClock(0x10, 0x23);      // Set the time to 10:23
+  SetClock(0x12, 0x34);      // Set the time to 12:34
 }
 
 void loop () {

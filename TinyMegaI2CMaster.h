@@ -1,6 +1,6 @@
-/* TinyMegaI2C
+/* TinyMegaI2C v1.1.0
 
-   David Johnson-Davies - www.technoblogy.com - 17th September 2019
+   David Johnson-Davies - www.technoblogy.com - 16th February 2022
    
    CC BY 4.0
    Licensed under a Creative Commons Attribution 4.0 International license: 
@@ -25,7 +25,7 @@ uint32_t const T_RISE = 300L;        // Rise time
 
 class TinyMegaI2CMaster {
 
-    public:
+public:
   TinyMegaI2CMaster();
   void init(void);
   uint8_t read(void);
@@ -35,7 +35,7 @@ class TinyMegaI2CMaster {
   bool restart(uint8_t address, int readcount);
   void stop(void);
 
-    private:
+private:
   int I2Ccount;
 };
 
