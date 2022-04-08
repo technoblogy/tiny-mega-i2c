@@ -25,7 +25,7 @@ These routines don't impose any limit on the length of transmissions. The standa
 
 These routines allow you to specify in advance how many bytes you want to read from an I2C peripheral, or you can leave this open-ended and mark the last byte read. This is an advantage when you don't know in advance how many bytes you are going to want to read.
 
-## Pollong
+## Polling
 
 For simplicity these routines use polling rather than interrupts, so they won't interfere with other processes using interrupts.
 
